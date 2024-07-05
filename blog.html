@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class ="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!--------blog page content-------->
+
+    <section class="blog_content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>My greatest achievement this year, is finishing second year with a 2:1 and achieving 3 firsts. I feel I have a lot more motivation and have learnt lots of new skills for third year. Getting 70% in my Global Current Affairs exam! But outside of that, I had the opportunity to interview Kate Nash and get my article published.</p>
+                <br>
+                <p>My greatest achievement this year is quite simple, I’ve completed my  degree and I’m now qualified to practice as a social worker.  I never thought I would ever be able to say something like that but I can now, and it’s something no one can ever take away from me. Being accepted as a summer undergraduate research assistant for a very exciting project has capped a really brilliant year for me. I’ll be contributing to a project – Forensic Footprints – that’s seeking to develop software to help law enforcement officers in the UK and abroad process footprints at crime scenes more easily.</p>
+                <br>
+                <p>I have just today got back from a two week trip to Colombia with BU, we were working out there with EAFIT university. It was a great achievement as it lead to travelling alone, a big change for me, as well as achieving some awesome physical and mental goals as well as helping me develop my ideas for future careers. This year I made a resolution: to blog every day. Some days were certainly harder than others, but with this month’s page views at an all-time record (2,209 and counting) I would call it an unqualified success. And while I might not have written a book this year, in words alone my blog posts more than make up for it.</p>
+
+            <div class="comment-box">
+
+                <h3>Leave a Comments</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>Hotel Mangement</span>
+                    <span>163</span>
+                </div>
+                <div>
+                    <span>Law</span>
+                    <span>54</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+
+
+    <!----------facilities--------->
+
+   
+
+
+<!-------Footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nilla, eleifend faucibus est <br> sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+    
+<!--------JavaScript for menu-->
+    <script>
+
+        var varLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
